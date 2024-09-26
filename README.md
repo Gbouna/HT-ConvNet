@@ -27,7 +27,9 @@ A sample of the processed file is currently in the data folder, please replace i
 # Training
 
 For JHMDB, run `python train.py --batch-size 512 --epochs 600 dataset 0 --lr 0.001 | tee train.log`
+
 For SHREC coarse, run `python train.py --batch-size 512 --epochs 600 dataset 1 --lr 0.001 | tee train.log`
+
 For SHREC fine, run `python train.py --batch-size 512 --epochs 600 dataset 2 --lr 0.001 | tee train.log`
 
 # Testing
@@ -35,7 +37,9 @@ For SHREC fine, run `python train.py --batch-size 512 --epochs 600 dataset 2 --l
 To test the trained model, bring the saved model to the main directory and pass its name as an arg for the model-path or simply pass the path to where the model was saved
 
 For JHMDB, run `python test.py --model-path model.pt --dataset 0`
+
 For SHREC coarse, run `python test.py --model-path model.pt --dataset 1`
+
 For SHREC fine, run `python test.py --model-path model.pt --dataset 2`
 
 To force the model to be loaded with CPU run `python test.py --model-path model.pt --dataset 0 --no-cuda`
