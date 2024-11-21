@@ -26,9 +26,9 @@ A sample of the processed file is currently in the data folder, please replace i
 
 # Training
 
-For JHMDB, run `python train.py --batch-size 512 --epochs 600 dataset 0 --lr 0.001 | tee train.log`
+For JHMDB, run `python train.py --batch-size 512 --epochs 600 --dataset 0 --lr 0.001 | tee train.log`
 
-For SHREC coarse, run `python train.py --batch-size 512 --epochs 600 dataset 1 --lr 0.001 | tee train.log`
+For SHREC coarse, run `python train.py --batch-size 512 --epochs 600 --dataset 1 --lr 0.001 | tee train.log`
 
 For SHREC fine, run `python train.py --batch-size 512 --epochs 600 dataset 2 --lr 0.001 | tee train.log`
 
