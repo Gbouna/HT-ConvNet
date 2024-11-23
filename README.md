@@ -47,3 +47,5 @@ To force the model to be loaded with CPU run `python test.py --model-path model.
 
 ![Real time](https://github.com/user-attachments/assets/69842243-2296-4dc2-842a-52579a3c22f8)
 
+
+
