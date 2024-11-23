@@ -44,6 +44,10 @@ For SHREC fine, run `python test.py --model-path model.pt --dataset 2`
 
 To force the model to be loaded with CPU run `python test.py --model-path model.pt --dataset 0 --no-cuda`
 
+<p align="center">
+![Real-time Action Recognition](https://github.com/user-attachments/assets/cf372538-8c3a-45e5-a46a-87150a166bd6)
+</p>
+
 ![Real-time Action Recognition](https://github.com/user-attachments/assets/cf372538-8c3a-45e5-a46a-87150a166bd6)
 
 
