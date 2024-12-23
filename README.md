@@ -1,6 +1,8 @@
 # HT-ConvNet
 This is the official repository for **Hierarchical Temporal Convolution Network: Towards Privacy-Centric Activity Recognition**, our paper published at the International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI)
 
+The paper can be found [here](https://doi.org/10.1007/978-3-031-77571-0_33)
+
 # Prerequisites
 Python >= 3.6
 
