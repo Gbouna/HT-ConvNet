@@ -22,10 +22,6 @@ SHREC raw data download link:   http://www-rech.telecom-lille.fr/shrec2017-hand/
 ## Process datasets.
 Use the preprocessing code in the data processing folder to process the data and put them in the data folder. 
 
-Or you can get the already processed data directly from [this GitHub repo](https://github.com/fandulu/DD-Net)
-
-A sample of the processed file is currently in the data folder, please replace it. 
-
 # Training
 
 For JHMDB, run `python train.py --batch-size 512 --epochs 600 --dataset 0 --lr 0.001 | tee train.log`
