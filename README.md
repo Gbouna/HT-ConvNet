@@ -52,4 +52,21 @@ To force the model to be loaded with CPU run `python test.py --model-path model.
 [![Privacy-Centric Activity Recognition](https://img.youtube.com/vi/FExfkhTpHJA/0.jpg)](https://www.youtube.com/watch?v=FExfkhTpHJA)
 
 
-
+# Citation
+```
+@InProceedings{HT-ConvNet,
+author="Zakka, Vincent Gbouna
+and Dai, Zhuangzhuang
+and Manso, Luis J.",
+editor="Bravo, Jos{\'e}
+and Nugent, Chris
+and Cleland, Ian",
+title="Hierarchical Temporal Convolution Network: Towards Privacy-Centric Activity Recognition",
+booktitle="Proceedings of the International Conference on Ubiquitous Computing and Ambient Intelligence (UCAmI 2024)",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="344--356",
+isbn="978-3-031-77571-0"
+}
+```
